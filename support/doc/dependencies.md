@@ -45,8 +45,10 @@ _note_: only **LTS** versions of external dependencies are supported. If no LTS 
 [https://nodejs.org/en/download/package-manager/all#debian-and-ubuntu-based-linux-distributions](https://nodejs.org/en/download/package-manager/all#debian-and-ubuntu-based-linux-distributions)
 4. Install yarn, and be sure to have [a recent version](https://github.com/yarnpkg/yarn/releases/latest):
 [https://yarnpkg.com/en/docs/install#linux-tab](https://yarnpkg.com/en/docs/install#linux-tab)
-
-5. Install Python:
+```
+npm install --global yarn
+```
+6. Install Python:
 
 On Ubuntu <= bionic (18.04 LTS) or Debian <= Buster:
 
